@@ -4,7 +4,7 @@
 
 集群和结点
 
-![img](C:\Users\LENOVO\Desktop\ES\35.png)
+![img](https://github.com/jigexio/Elasticsearch/blob/master/35.png)
 
 1.索引(类似于数据库里面的database)
 
@@ -46,27 +46,27 @@ ES的动作是以http方法来决定的: 常用的http方法: GET/PUT/POST/DELET
 
 1.开启head插件
 
-![](C:\Users\LENOVO\Desktop\ES\31.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/31.png)
 
 2.在D:\elasticsearch-7.2.0\config\elasticsearch.yml中进行配置，创建master集群
 
-![](C:\Users\LENOVO\Desktop\ES\32.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/32.png)
 
-![](C:\Users\LENOVO\Desktop\ES\33.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/33.png)
 
 启动elasticsearch
 
-![](C:\Users\LENOVO\Desktop\ES\34.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/34.png)
 
 **当看到started时说明启动成功**
 
 
 
-![](C:\Users\LENOVO\Desktop\ES\2.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/2.png)
 
 3.类似地进行slave1和slave2的创建（需要修改默认端口）
 
-![](C:\Users\LENOVO\Desktop\ES\3.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/3.png)
 
 
 
@@ -80,7 +80,7 @@ ES的动作是以http方法来决定的: 常用的http方法: GET/PUT/POST/DELET
 
 **Mappings**是结构化的一个关键词, 其后内容是空的, 说明这个索引是一个非结构化的索引
 
-![1581268582718](C:\Users\LENOVO\Desktop\ES\36.png)
+![1581268582718](https://github.com/jigexio/Elasticsearch/blob/master/36.png)
 
 ```json
 请求数据的json格式
@@ -132,7 +132,7 @@ ES的动作是以http方法来决定的: 常用的http方法: GET/PUT/POST/DELET
 }
 ```
 
-![](C:\Users\LENOVO\Desktop\ES\5.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/5.png)
 
 
 
@@ -202,7 +202,7 @@ http方法: **post**方法
 
 “doc”为关键字, 要修改的文档放在doc中, 实例修改了type为people索引下_doc中id为1 的name属性
 
-![](C:\Users\LENOVO\Desktop\ES\6.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/6.png)
 
 ![1581269815147](C:\Users\LENOVO\AppData\Roaming\Typora\typora-user-images\1581269815147.png)
 
@@ -227,7 +227,7 @@ http方法: **post**方法
 }
 ```
 
-![](C:\Users\LENOVO\Desktop\ES\7.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/7.png)
 
 关键字”script”: 标志以脚本的方式修改文档
 
@@ -252,7 +252,7 @@ http方法: **post**方法
 }
 ```
 
-![](C:\Users\LENOVO\Desktop\ES\8.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/8.png)
 
 
 
@@ -264,7 +264,7 @@ http方法: **delete**
 
 请求路径127.0.0.1:9200/people/_doc/1
 
-![](C:\Users\LENOVO\Desktop\ES\9.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/9.png)
 
 #### 2.4.2 删除索引
 
