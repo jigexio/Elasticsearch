@@ -202,7 +202,7 @@ book: 索引名称
 
 novel: type名称
 
-![](C:\Users\LENOVO\Desktop\ES\10.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/10.png)
 
 ### 3.2 条件查询
 
@@ -226,7 +226,7 @@ http地址: 127.0.0.1:9200/book/_doc/_search
 
 Query: 为查询关键字
 
-![](C:\Users\LENOVO\Desktop\ES\11.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/11.png)
 
 添加起始条数和记录数
 
@@ -246,7 +246,7 @@ Query: 为查询关键字
 }
 ```
 
- ![](C:\Users\LENOVO\Desktop\ES\12.png)
+ ![](https://github.com/jigexio/Elasticsearch/blob/master/12.png)
 
 关键词查询
 
@@ -282,7 +282,7 @@ Query: 为查询关键字
 
 
 
-![](C:\Users\LENOVO\Desktop\ES\13.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/13.png)
 
 Match中为匹配的字段和值
 
@@ -328,9 +328,9 @@ http地址: 127.0.0.1:9200/book/_doc/_search
 }
 ```
 
- ![](C:\Users\LENOVO\Desktop\ES\14.png)
+ ![](https://github.com/jigexio/Elasticsearch/blob/master/14.png)
 
-![](C:\Users\LENOVO\Desktop\ES\15.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/15.png)
 
 
 
@@ -356,7 +356,7 @@ http地址: 127.0.0.1:9200/book/_doc/_search
 }
 ```
 
-![](C:\Users\LENOVO\Desktop\ES\16.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/16.png)
 
 ```json
 {
@@ -378,7 +378,7 @@ http地址: 127.0.0.1:9200/book/_doc/_search
 }
 ```
 
-![](C:\Users\LENOVO\Desktop\ES\17.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/17.png)
 
 
 
@@ -422,7 +422,7 @@ http地址: 127.0.0.1:9200/book/novel/_search
 }
 ```
 
-![](C:\Users\LENOVO\Desktop\ES\18.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/18.png)
 
 或者
 
@@ -442,7 +442,7 @@ http地址: 127.0.0.1:9200/book/novel/_search
 }
 ```
 
-![](C:\Users\LENOVO\Desktop\ES\19.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/19.png)
 
 **注：**模糊匹配会把查询的字段进行拆分, 如title中的”Elasticsearch入门”, 会查询”Elasticsearch”和”入门”两个词语所匹配的内容
 
@@ -472,7 +472,7 @@ http地址: 127.0.0.1:9200/book/novel/_search
 }
 ```
 
-![](C:\Users\LENOVO\Desktop\ES\20.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/20.png)
 
 该查询条件会将”title”字段中与”Elasticsearch入门”相匹配的查出来
 
@@ -510,7 +510,7 @@ http地址: 127.0.0.1:9200/book/novel/_search
 }
 ```
 
-![](C:\Users\LENOVO\Desktop\ES\21.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/21.png)
 
 该查询条件会将”author”或者是”title”字段中包含”瓦力”的都查询出来
 
@@ -562,7 +562,7 @@ http地址: 127.0.0.1:9200/book/novel/_search
 }
 ```
 
-![](C:\Users\LENOVO\Desktop\ES\22.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/22.png)
 
 指定字段和条件查询
 
@@ -590,7 +590,7 @@ http地址: 127.0.0.1:9200/book/novel/_search
 }
 ```
 
-![](C:\Users\LENOVO\Desktop\ES\23.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/23.png)
 
 ##### 2. 字段级别的查询: 针对结构化数据, 如数字, 日期等.
 
@@ -620,7 +620,7 @@ http地址: 127.0.0.1:9200/book/novel/_search
 }
 ```
 
-![](C:\Users\LENOVO\Desktop\ES\24.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/24.pngg)
 
 
 
@@ -650,7 +650,7 @@ http地址: 127.0.0.1:9200/book/novel/_search
 }
 ```
 
-![](C:\Users\LENOVO\Desktop\ES\25.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/25.png)
 
 
 
@@ -678,7 +678,7 @@ http地址: 127.0.0.1:9200/book/novel/_search
 }
 ```
 
-![](C:\Users\LENOVO\Desktop\ES\26.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/26.png)
 
 
 
@@ -716,7 +716,7 @@ http地址: 127.0.0.1:9200/book/novel/_search
 }
 ```
 
-![](C:\Users\LENOVO\Desktop\ES\27.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/27.png)
 
 Filter context相对于query context, 用于数据过滤, es会对其查询结果缓存, 查询速率会更快一些, filter要结合bool一起使用.
 
@@ -762,7 +762,7 @@ http地址: 127.0.0.1:9200/_search (全文搜索)
 
 固定了_score为2. 而在模糊查询中, _score为变化的
 
-![](C:\Users\LENOVO\Desktop\ES\28.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/28.png)
 
 ##### 布尔查询
 
@@ -812,7 +812,7 @@ http地址: 127.0.0.1:9200/_search (全文搜索)
 
 should相当于“或”OR
 
-![](C:\Users\LENOVO\Desktop\ES\29.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/29.pngg)
 
 ```json
 {
@@ -854,7 +854,7 @@ should相当于“或”OR
 
 must相当于“和”AND
 
-![](C:\Users\LENOVO\Desktop\ES\30.png)
+![](https://github.com/jigexio/Elasticsearch/blob/master/30.png)
 
 
 
